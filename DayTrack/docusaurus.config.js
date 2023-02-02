@@ -10,16 +10,10 @@ const config = {
   tagline: 'A agenda que falta na sua vida!',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: 'https://larissarc.github.io/',
   baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'larissarc.github.io',
+  projectName: 'DayTrackPages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
