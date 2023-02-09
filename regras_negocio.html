@@ -5,9 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DayTrack - Regras de negócio</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/main.css" />
     </head>
     <body>
+        <h1 class="title">DayTrack - Regras de Negócio</h1>
+        <p class="description">&emsp;As regras de negócio são premissas e restrições aplicadas a uma operação comercial de uma empresa que precisam ser atendidas para
+            que o negócio funcione de maneira esperada. Portanto, uma regra deve fazer parte de um processo, mais precisamente como parte de uma atividade humana
+            ou automática. São declarações que irão descrever como determinadas operações devem ser realizadas e se há algum limite que precisa ser aplicado.
+            São elas que guiarão comportamentos e definirão o que, onde, quando, porque e como algo deve ser feito em uma empresa.
+        </p>
+
+        <ul>
+            <li>Só pode ser criada uma conta por e-mail;</li>
+            <li>Datas comemorativas (como natal) e feriados não estão inclusos por padrão no calendário do sistema;</li>
+            <li>O calendário é criado sem nenhum evento no momento que o usuário cria a sua conta;</li>
+            <li>O usuário só terá acesso aos eventos que ele criou. Não será possível ver eventos e dados cadastrais de outras contas;</li>
+            <li>Uma vez que o usuário deleta a sua conta, os dados de sua conta permanecem salvos no banco de dados, mudando apenas o status da conta. Depois de 30 dias, caso a conta não seja reativada, todos os dados da conta (eventos) serão deletados.</li>
+        </ul>
         
+        <br>
+        <a style="margin-top: 20px;" href="/DayTrackPages/docs.html" class="btn btn-dark fs-4 voltar">Voltar</a>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>

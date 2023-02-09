@@ -5,9 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>DayTrack - Diagrama entidade relacionamento</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/main.css" />
     </head>
     <body>
+        <h1 class="title">DayTrack -  Diagrama Entidade-Relacionamento</h1>
+        <p class="description">&emsp;Um diagrama entidade relacionamento (ER) é um tipo de fluxograma que ilustra como “entidades”
+            (pessoas, objetos ou conceitos) se relacionam entre si dentro de um sistema. Diagramas ER são mais utilizados para projetar
+            ou depurar bancos de dados relacionais nas áreas de engenharia de software, sistemas de informações empresariais, educação e
+            pesquisa.
+        </p>
+        <p class="description">&emsp;O DER do DayTrack possui apenas duas entidades: o schedule_use e schedule_event. Estes representam
+            respectivamente o usuário e o evento. Um usuário se relaciona com zero ou mais eventos, enquanto que um evento se relaciona
+            apenas um usuário, pois ele é exclusivo de cada usuário que o cria no sistema e não pode existir a menos que tenha sido criado
+            por um usuário.
+        </p>
+
+        <img class="mer" src="imgs/docs/mer.png"/>
         
+        <br>
+        <a style="margin-top: 20px;" href="/DayTrackPages/docs.html" class="btn btn-dark fs-4 voltar">Voltar</a>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>

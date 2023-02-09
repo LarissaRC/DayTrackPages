@@ -1,0 +1,89 @@
+.title {
+    margin: 30px 20px;
+}
+
+.description {
+    margin: 0px 20px;
+}
+
+.voltar {
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.level1 {
+    width: 900px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.level2 {
+    width: 800px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.level3 {
+    width: 600px;
+    height: 700px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.level4 {
+    width: 800px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.sys {
+    width: 800px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.fluxo {
+    width: 800px;
+    height: 600px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.mer {
+    width: 800px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.dic_user {
+    width: 1300px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+
+.dic_event {
+    width: 1300px;
+    height: 250px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
